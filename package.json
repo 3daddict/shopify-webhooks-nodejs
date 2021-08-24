@@ -1,0 +1,19 @@
+{
+  "name": "shopify-webhooks-nodejs",
+  "version": "1.0.0",
+  "description": "Shopify Webhooks with NodeJS",
+  "main": "server.js",
+  "repository": "https://github.com/3daddict/shopify-webhooks-nodejs.git",
+  "author": "Mike Salvati",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
